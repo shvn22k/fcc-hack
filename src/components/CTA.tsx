@@ -115,7 +115,10 @@ export default function CTA() {
                       <Star key={i} className="w-4 h-4 text-yellow-400 fill-current" />
                     ))}
                   </div>
-                  <p className="text-white/80 text-sm mb-3 italic font-secondary">"{testimonial.text}"</p>
+                  <p className="text-white/80 text-sm mb-3 italic font-secondary">
+                    &quot;{testimonial.text}&quot;
+                  </p>
+
                   <p className="text-white/60 text-xs font-secondary">— {testimonial.author}</p>
                 </motion.div>
               ))}
