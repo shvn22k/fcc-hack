@@ -7,10 +7,10 @@ import CTA from "../components/CTA";
 import Footer from "../components/Footer";
 import { Oswald } from 'next/font/google';
 
-const oswald = Oswald({
-  subsets: ['latin'],
-  weight: '500',
-});
+// const oswald = Oswald({
+//   subsets: ['latin'],
+//   weight: '500',
+// });
 
 export default function Home() {
   return (
